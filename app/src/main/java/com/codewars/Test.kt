@@ -1,6 +1,6 @@
 package com.codewars
 
-import com.leatcode.util.print
+import com.leetcode.util.print
 import java.util.PriorityQueue
 import kotlin.math.ceil
 import kotlin.math.floor
