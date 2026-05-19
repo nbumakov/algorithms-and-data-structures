@@ -4,7 +4,7 @@ import com.leetcode.util.print
 
 
 fun main() {
-//    val text = File("/Users/nbumakov/AndroidStudioProjects/StepcAlgs/app/src/main/java/com/example/leatcode/t2090/data.txt")
+//    val text = File("/Users/nbumakov/AndroidStudioProjects/StepcAlgs/app/src/main/java/com/leetcode/t2090/data.txt")
 //    val input = Scanner(text).next().split(",").map { it.toInt() }
     Solution()
         .getAverages(intArrayOf(7,4,3,9,1,8,5,2,6), 3)

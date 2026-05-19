@@ -20,11 +20,11 @@ fun main() {
 
 /**
  * Example:
- * var li = com.example.leatcode.util.ListNode(5)
+ * var li = com.leetcode.util.ListNode(5)
  * var v = li.`val`
  * Definition for singly-linked list.
- * class com.example.leatcode.util.ListNode(var `val`: Int) {
- *     var next: com.example.leatcode.util.ListNode? = null
+ * class com.leetcode.util.ListNode(var `val`: Int) {
+ *     var next: com.leetcode.util.ListNode? = null
  * }
  */
 class Solution {

@@ -1,4 +1,4 @@
-package com.leatcode.t3637
+package com.leetcode.t3637
 
 fun main() {
     println(Solution().isTrionic(intArrayOf(1, 3, 5, 4, 2, 6)))

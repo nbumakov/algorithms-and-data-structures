@@ -6,12 +6,12 @@ Kotlin solutions to algorithm problems from LeetCode, CodeRun, Codewars, and Ste
 
 | Package | Problems | Description |
 |---------|----------|-------------|
-| `com.leatcode` | 517 | LeetCode — each problem in `t<N>/Solution.kt` |
+| `com.leetcode` | 517 | LeetCode — each problem in `t<N>/Solution.kt` |
 | `com.coderun` | 10 | CodeRun — each problem in `t<N>/Solution.kt` |
 | `com.codewars` | — | Codewars kata solutions |
 | `com.stepcalgs` | — | Stepik course tasks |
 
-Shared data structures used across LeetCode solutions live in `com.leatcode.util`: `TreeNode`, `ListNode`, `Node`, and `IoExt` (a `print()` extension for pretty-printing trees, lists, and arrays).
+Shared data structures used across LeetCode solutions live in `com.leetcode.util`: `TreeNode`, `ListNode`, `Node`, and `IoExt` (a `print()` extension for pretty-printing trees, lists, and arrays).
 
 ## Build
 
