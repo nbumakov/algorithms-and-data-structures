@@ -7,10 +7,14 @@ fun main() {
 
 class Solution {
     fun getCommon(nums1: IntArray, nums2: IntArray): Int {
+        var i = 0
         var j = 0
-        for (i in nums1.indices) {
-            while (j < nums2.size && nums1[i] > nums2[j]) j++
-            if (j < nums2.size && nums1[i] == nums2[j]) return nums1[i]
+        while (i < nums1.size && j < nums2.size) {
+            when {
+                nums1[i] == nums2[j] -> return nums1[i]
+                nums1[i] < nums2[j] -> i++
+                else -> j++
+            }
         }
         return -1
     }
