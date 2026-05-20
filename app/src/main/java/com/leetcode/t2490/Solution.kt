@@ -20,3 +20,17 @@ class Solution2 {
         return true
     }
 }
+
+class Solution3 {
+    fun isCircularSentence(sentence: String): Boolean {
+        val n = sentence.length
+        if (sentence[0] != sentence[n - 1]) return false
+
+        var i = sentence.indexOf(' ')
+        while (i != -1) {
+            if (sentence[i - 1] != sentence[i + 1]) return false
+            i = sentence.indexOf(' ', i + 1)
+        }
+        return true
+    }
+}
