@@ -17,19 +17,21 @@ class Solution1 {
 
         while (l <= r) {
             val mid = (l + r) / 2
+            val midVal = nums[mid]
 
             when {
-                target == nums[mid] -> return mid
-                nums[l] <= nums[mid] -> {
-                    if (target in nums[l] until nums[mid]) {
+                target == midVal -> return mid
+                nums[l] <= midVal -> {
+                    // Left side is sorted
+                    if (target in nums[l] until midVal) {
                         r = mid - 1
                     } else {
                         l = mid + 1
                     }
                 }
-
                 else -> {
-                    if (target in nums[mid + 1]..nums[r]) {
+                    // Right side is sorted
+                    if (target in (midVal + 1)..nums[r]) {
                         l = mid + 1
                     } else {
                         r = mid - 1
