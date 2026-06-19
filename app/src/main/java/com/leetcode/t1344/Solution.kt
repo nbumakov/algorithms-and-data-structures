@@ -18,3 +18,11 @@ class Solution {
         return minOf(angle, 360 - angle)
     }
 }
+
+class Solution2 {
+    // Minute hand moves 6°/min, hour hand 0.5°/min → gap grows 5.5°/min
+    fun angleClock(hour: Int, minutes: Int): Double {
+        val angle = 5.5 * (hour * 60 + minutes) % 360
+        return minOf(angle, 360 - angle)
+    }
+}
