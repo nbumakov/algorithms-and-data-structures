@@ -9,11 +9,6 @@ class Solution {
             .minOf { count[it] / ref[it] }
     }
 
-    private fun countChars(text: String): IntArray {
-        val result = IntArray(26)
-        for (c in text) {
-            result[c - 'a']++
-        }
-        return result
-    }
+    private fun countChars(text: String) = IntArray(26)
+        .apply { for (c in text) this[c - 'a']++ }
 }
