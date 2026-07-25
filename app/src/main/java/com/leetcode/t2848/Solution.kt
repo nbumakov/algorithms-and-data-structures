@@ -1,4 +1,4 @@
-package com.leetcode.t8029
+package com.leetcode.t2848
 
 class Solution {
     fun numberOfPoints(nums: List<List<Int>>): Int {

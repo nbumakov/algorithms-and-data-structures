@@ -1,4 +1,4 @@
-package com.leetcode.t100125
+package com.leetcode.t2928
 
 import com.leetcode.util.print
 import kotlin.math.min

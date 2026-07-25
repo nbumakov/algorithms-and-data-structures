@@ -1,4 +1,4 @@
-package com.leetcode.t7020
+package com.leetcode.t2843
 
 import com.leetcode.util.print
 
