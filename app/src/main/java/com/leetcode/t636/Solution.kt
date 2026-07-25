@@ -1,4 +1,4 @@
-package com.leetcode.q.s.q3
+package com.leetcode.t636
 
 class Solution {
     // Input: n = 2, logs = ["0:start:0","1:start:2","1:end:5","0:end:6"]

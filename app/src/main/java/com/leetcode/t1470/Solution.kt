@@ -1,4 +1,4 @@
-package com.leetcode.q.a1.q2
+package com.leetcode.t1470
 
 class Solution {
     fun shuffle(nums: IntArray, n: Int): IntArray = IntArray(2 * n) {

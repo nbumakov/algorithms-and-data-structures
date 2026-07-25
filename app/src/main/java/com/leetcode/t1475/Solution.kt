@@ -1,4 +1,4 @@
-package com.leetcode.q.ms.q1
+package com.leetcode.t1475
 
 import com.leetcode.util.print
 
